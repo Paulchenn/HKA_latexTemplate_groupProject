@@ -2,8 +2,8 @@
 setlocal enabledelayedexpansion
 
 :: Definiere den Quellpfad und den Zielordner
-set "source=C:\Users\GLP1RNG\Documents\2024_BA_Bosch\thesis.pdf"
-set "destination=C:\Users\GLP1RNG\Documents\2024_BA_Bosch\"
+set "source=C:\path\to\thesis.pdf"
+set "destination=C:\path\to\new\"
 
 :: Hole das aktuelle Datum und die Uhrzeit im Format yyyyMMdd_hhmm
 for /f "tokens=2 delims==" %%I in ('wmic os get localdatetime /value') do set datetime=%%I
