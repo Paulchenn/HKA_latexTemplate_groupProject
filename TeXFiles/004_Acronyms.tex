@@ -1,5 +1,9 @@
 % Allgemeine Akronyme
-\chapter*{Abkürzungsverzeichnis}
+\ifdefined\ThesisLanguageIsEnglish
+	\chapter*{List of Abbreviations}
+\else
+	\chapter*{Abkürzungsverzeichnis}
+\fi
 \begin{acronym}[LONG]
 	\acro{DUT}{Device under Test}
 \end{acronym}
