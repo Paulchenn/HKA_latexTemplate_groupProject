@@ -16,12 +16,21 @@
   	\end{center}
 
 	% Name FH und Fakultaet
-  	\begin{center}
-		\vspace{0.1cm}
-		\LARGE \textbf{\University}\\
-		\vspace{0.4cm}
-		\Large -- \Faculty --
-	\end{center}
+	\ifdefined\ThesisLanguageIsEnglish
+		\begin{center}
+			\vspace{0.1cm}
+			\LARGE \textbf{\University}\\
+			\vspace{0.4cm}
+			\Large -- \FacultyEN --
+		\end{center}
+	\else
+  		\begin{center}
+			\vspace{0.1cm}
+			\LARGE \textbf{\University}\\
+			\vspace{0.4cm}
+			\Large -- \FacultyDE --
+		\end{center}
+	\fi
 	
 	\vfill
 	
